@@ -1,10 +1,11 @@
+#include <ctype.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <limits.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <fcntl.h>
-#include <errno.h>
 #include <string.h>
-#include <ctype.h>
 
 #include "corruptionchecksum.h"
 
@@ -142,6 +143,16 @@ int partTwo(char *input, size_t size)
 		size_t line_len = strcspn(current, "\n");
 
 		fprintf(stdout, "length(%d)\n", line_len);
+
+		if (line_len != strlen(current))
+		{
+			char *token = malloc(line_len * sizeof(char) + 1);
+
+			strncpy(token, current, line_len);
+			token[line_len] = '\0';
+
+			free(token);
+		}
 
 		current += line_len;
 
