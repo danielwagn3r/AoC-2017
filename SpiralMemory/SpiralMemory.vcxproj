@@ -115,6 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="abstract_part.cpp" />
+    <ClCompile Include="part_one.cpp" />
+    <ClCompile Include="spiral_memory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="abstract_part.h" />
+    <ClInclude Include="part_one.h" />
+    <ClInclude Include="spiral_memory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
