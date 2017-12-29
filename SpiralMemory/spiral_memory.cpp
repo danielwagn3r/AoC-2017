@@ -12,7 +12,6 @@ int main(int argc, char** argv)
 {
 	po::options_description od;
 	od.add_options()
-		("version", "Display version information.")
 		("part", po::value<unsigned int>()->required()->default_value(1), "Part of puzzle.")
 		("input", po::value<unsigned int>()->required()->default_value(1), "Input number.")
 		("help", "Display this information.");

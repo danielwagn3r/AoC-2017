@@ -7,7 +7,7 @@ The program shall support the following command-line interface:
 ```shell
 SpiralMemory [options] part input
   --part arg (=1)       Part of puzzle.
-  --input arg           Input file.
+  --input arg (=1)      Input number.
   --help                Display this information.
  ```
 
