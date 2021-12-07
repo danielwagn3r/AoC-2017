@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpiralMemory", "SpiralMemory\SpiralMemory.vcxproj", "{07BC6D94-511C-4B77-A408-20CD1B4F63FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4F43C90-9C8D-4A6B-8409-F78B947E629D}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07BC6D94-511C-4B77-A408-20CD1B4F63FA}.Debug|x64.ActiveCfg = Debug|x64
+		{07BC6D94-511C-4B77-A408-20CD1B4F63FA}.Debug|x64.Build.0 = Debug|x64
+		{07BC6D94-511C-4B77-A408-20CD1B4F63FA}.Debug|x86.ActiveCfg = Debug|Win32
+		{07BC6D94-511C-4B77-A408-20CD1B4F63FA}.Debug|x86.Build.0 = Debug|Win32
+		{07BC6D94-511C-4B77-A408-20CD1B4F63FA}.Release|x64.ActiveCfg = Release|x64
+		{07BC6D94-511C-4B77-A408-20CD1B4F63FA}.Release|x64.Build.0 = Release|x64
+		{07BC6D94-511C-4B77-A408-20CD1B4F63FA}.Release|x86.ActiveCfg = Release|Win32
+		{07BC6D94-511C-4B77-A408-20CD1B4F63FA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A22EE9A5-C2DC-4535-B5CA-E40733BC22D6}
+	EndGlobalSection
+EndGlobal
